@@ -9,7 +9,7 @@ setup(
         version='1.0.0', 
         author='pradeep-selva', 
         author_email='pradeep.selva8833@gmail.com', 
-        url='https://github.com/Pradeep-selva/create-discord-bot', 
+        url='https://github.com/Pradeep-selva/create-discordpy-bot', 
         description='An opinionated discord.py bot code bootstrapper', 
         long_description= long_description, 
         long_description_content_type="text/markdown", 

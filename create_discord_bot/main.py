@@ -3,7 +3,7 @@ import argparse
 import generators as gt
 
 def main():
-    parser = argparse.ArgumentParser(prog='create-discord-bot', 
+    parser = argparse.ArgumentParser(prog='create-discordpy-bot', 
                                      description='An opinionated cli-tool to bootstrap a discord.py bot') 
   
     parser.add_argument('--cogs', action='store_true', help='bootstrap a discord.py bot code with cogs') 
