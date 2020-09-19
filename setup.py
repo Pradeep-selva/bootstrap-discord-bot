@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 long_description = 'A python cli-tool to generate a boilerplate folder structure for your discord.py bot code'
 setup( 
         name='create-discordpy-bot',
-        version='1.0.0', 
+        version='1.0.2', 
         author='pradeep-selva', 
         author_email='pradeep.selva8833@gmail.com', 
         url='https://github.com/Pradeep-selva/create-discordpy-bot', 

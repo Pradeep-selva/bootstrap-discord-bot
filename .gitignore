@@ -1,3 +1,5 @@
 .cph/
 __pycache__/
 build/
+dist/
+create_discordpy_bot.egg-info/
