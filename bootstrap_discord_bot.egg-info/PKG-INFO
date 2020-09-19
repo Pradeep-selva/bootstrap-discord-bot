@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: bootstrap-discord-bot
+Version: 1.0.6
+Summary: An opinionated discord.py bot code bootstrapper
+Home-page: https://github.com/Pradeep-selva/bootstrap-discord-bot
+Author: pradeep-selva
+Author-email: pradeep.selva8833@gmail.com
+License: MIT
+Description: # CREATE-DISCORD-BOT
+        
+        An opinionated cli-tool to bootstrap your discord bot code!
+        
+        #### FEATURES
+        
+        - Support for code with/without cogs.
+        - .env file support for keys and .gitignore to hide it.
+        - Bot code pre-built with a ping function to get you started!
+        
+        ## Usage
+        
+        placeholder
+        
+        ## Built using
+        
+        - Python
+        - Discord.py
+        - argparse
+        
+Keywords: discord.py cli-tool bootstrapper boilerplate genrator discord bot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,17 @@
+README.md
+setup.py
+bootstrap_discord_bot.egg-info/PKG-INFO
+bootstrap_discord_bot.egg-info/SOURCES.txt
+bootstrap_discord_bot.egg-info/dependency_links.txt
+bootstrap_discord_bot.egg-info/entry_points.txt
+bootstrap_discord_bot.egg-info/not-zip-safe
+bootstrap_discord_bot.egg-info/requires.txt
+bootstrap_discord_bot.egg-info/top_level.txt
+create_discord_bot/__init__.py
+create_discord_bot/main.py
+create_discord_bot/boilerplates/__init__.py
+create_discord_bot/boilerplates/bot_with_cogs.py
+create_discord_bot/boilerplates/bot_without_cogs.py
+create_discord_bot/boilerplates/env.py
+create_discord_bot/boilerplates/requirements.py
+create_discord_bot/boilerplates/sample_cog.py

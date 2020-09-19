@@ -1,9 +1,11 @@
+import os
 import sys
 import argparse
-import generators as gt
+from pathlib import Path
+
 
 def main():
-    parser = argparse.ArgumentParser(prog='create-discordpy-bot', 
+    parser = argparse.ArgumentParser(prog='bootstrap-discord-bot', 
                                      description='An opinionated cli-tool to bootstrap a discord.py bot') 
   
     parser.add_argument('--cogs', action='store_true', help='bootstrap a discord.py bot code with cogs') 
@@ -15,10 +17,27 @@ def main():
 
     args = parser.parse_args()
 
-    gt.gen_commons()
+    with open(os.path.join(Path(__file__).parent.absolute(), 'boilerplates/requirements.py'), 'r') as f:
+        with open('requirements.txt', 'w') as w:
+            w.write(f.read())
+
+    with open(os.path.join(Path(__file__).parent.absolute(), 'boilerplates/env.py'), 'r') as f:
+        with open('.env', 'w') as w:
+            w.write(f.read())
+
+    with open('.gitignore', 'w') as w:
+        w.write(".env")
 
     if args.cogs:
-        gt.gen_cogs()
+        os.mkdir('cogs')
+
+        with open(os.path.join(Path(__file__).parent.absolute(), 'boilerplates/bot_with_cogs.py'), 'r') as f:
+            with open('bot.py', 'w') as w:
+                w.write(f.read())
+
+        with open(os.path.join(Path(__file__).parent.absolute(), 'boilerplates/sample_cog.py'), 'r') as f:
+            with open('./cogs/utilities.py', 'w') as w:
+                w.write(f.read())
 
         print('\33[34m' + '-- YOUR FOLDER TREE --' + '\x1b[0m')
 
@@ -26,7 +45,9 @@ def main():
         print('\x1b[6;30;42m' + 'Successfully bootstrapped your bot with cogs!' + '\x1b[0m')
 
     else:
-        gt.gen_nocogs()
+        with open(os.path.join(Path(__file__).parent.absolute(), 'boilerplates/bot_without_cogs.py'), 'r') as f:
+            with open('bot.py', 'w') as w:
+                w.write(f.read())
         
         print('\33[34m' + '-- YOUR FOLDER TREE --' + '\x1b[0m')
         

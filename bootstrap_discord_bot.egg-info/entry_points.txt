@@ -1,0 +1,3 @@
+[console_scripts]
+bootstrap-discord-bot = create_discord_bot.main:main
+
