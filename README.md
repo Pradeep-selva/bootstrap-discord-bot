@@ -1,4 +1,4 @@
-# CREATE-DISCORD-BOT
+# BOOTSTRAP DISCORD BOT
 
 An opinionated cli-tool to bootstrap your discord bot code!
 
