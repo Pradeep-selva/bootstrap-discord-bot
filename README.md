@@ -35,3 +35,4 @@ pip install bootstrap-discord-bot
 - Python
 - Discord.py
 - argparse
+- setuptools
