@@ -5,7 +5,7 @@
 ## Demo
 
 <div align="center">
-    <img src="./screenshots/demo.gif" alt="demo" width="600"/>
+    <img src="https://i.ibb.co/ZWdm21b/demo.gif" alt="demo" width="600"/>
 </div>
 <br/>
 
@@ -34,21 +34,27 @@ pip install bootstrap-discord-bot
 
 - Run `bootstrap-discord-bot -h` to get help
 
-![img](./screenshots/help.png)
+<div align="center">
+    <img src="https://i.ibb.co/c61P53p/help.png" alt="help" width="800"/>
+</div>
 <br/>
 <br/>
 <br/>
 
 - Run `bootstrap-discord-bot --cogs` to initialise a discord bot with cogs.
 
-![img](./screenshots/cogs.png)
+<div align="center">
+    <img src="https://i.ibb.co/DkzZsQv/cogs.png" alt="cogs" width="800"/>
+</div>
 <br/>
 <br/>
 <br/>
 
 - Run `boostrap-discord-bot --nocogs` to initialise a discord bot without cogs.
 
-![img](./screenshots/nocogs.png)
+<div align="center">
+    <img src="https://i.ibb.co/hCjP76r/nocogs.png" alt="demo" width="800"/>
+</div>
 
 ## Built using
 
