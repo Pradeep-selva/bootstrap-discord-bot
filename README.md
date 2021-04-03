@@ -1,9 +1,6 @@
 <h1 align="center">Bootstrap Discord Bot</h1>
 
-<div align="center">
-  <strong>An opinionated cli-tool to bootstrap your discord bot code!</strong>
-  <p>Forget about boilerplate while making a discord bot. Just use a simple command</p>
-</div>
+<h2 align="center">An opinionated cli-tool to bootstrap your discord bot code!</h2>
 
 ## Demo
 
@@ -37,27 +34,21 @@ pip install bootstrap-discord-bot
 
 - Run `bootstrap-discord-bot -h` to get help
 
-<div align="center">
-    <img src="./screenshots/help.png" alt="help" width="800"/>
-</div>
+![img](./screenshots/help.png)
 <br/>
 <br/>
 <br/>
 
 - Run `bootstrap-discord-bot --cogs` to initialise a discord bot with cogs.
 
-<div align="center">
-    <img src="./screenshots/cogs.png" alt="cogs" width="800"/>
-</div>
+![img](./screenshots/cogs.png)
 <br/>
 <br/>
 <br/>
 
 - Run `boostrap-discord-bot --nocogs` to initialise a discord bot without cogs.
 
-<div align="center">
-    <img src="./screenshots/nocogs.png" alt="demo" width="800"/>
-</div>
+![img](./screenshots/nocogs.png)
 
 ## Built using
 

@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup( 
         name='bootstrap-discord-bot',
-        version='1.0.7', 
+        version='1.1.0', 
         author='pradeep-selva', 
         author_email='pradeep.selva8833@gmail.com', 
         url='https://github.com/Pradeep-selva/bootstrap-discord-bot', 
