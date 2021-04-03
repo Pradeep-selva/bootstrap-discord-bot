@@ -1,4 +1,5 @@
 <h1 align="center">Bootstrap Discord Bot</h1>
+
 <div align="center">
   <strong>An opinionated cli-tool to bootstrap your discord bot code!</strong>
   <p>Forget about boilerplate while making a discord bot. Just use a simple command</p>
@@ -9,8 +10,16 @@
 <div align="center">
     <img src="./screenshots/demo.gif" alt="demo" width="600"/>
 </div>
+<br/>
 
-## FEATURES
+[![Downloads](https://pepy.tech/badge/bootstrap-discord-bot)](https://pepy.tech/project/bootstrap-discord-bot)
+[![Downloads](https://pepy.tech/badge/bootstrap-discord-bot/month)](https://pepy.tech/project/bootstrap-discord-bot)
+[![Downloads](https://pepy.tech/badge/bootstrap-discord-bot/week)](https://pepy.tech/project/bootstrap-discord-bot)
+
+<br/>
+<br/>
+
+## Features
 
 - Support for code with/without cogs.
 - .env file support for keys and .gitignore to hide it.
