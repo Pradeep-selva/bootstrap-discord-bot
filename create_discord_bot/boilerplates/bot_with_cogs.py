@@ -8,17 +8,14 @@ from dotenv import load_dotenv
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
-# to intialise a new cog, add a string to the array in the form -- 'cogs.<file_name_without_extension>'
-intial_extensions = ['cogs.utilities']
-
 # setting a bot prefix, to get the default discord.py help command, remove second argument
 bot = commands.Bot(command_prefix='+', help_command=None)
 
 # loading all cogs
 if __name__ == '__main__':
-    for extension in intial_extensions:
-        print(f"{extension[5:]}.py loaded")
-        bot.load_extension(extension)
+   for filename in os.listdir('./cogs'):
+        if filename.endswith('.py'):
+            client.load_extension(f'cogs.{filename[:-3]}') 
 
 # setting bot activity and presence and logging connection.
 @bot.event
