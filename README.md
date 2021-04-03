@@ -1,12 +1,20 @@
-# BOOTSTRAP DISCORD BOT
+<h1 align="center">Bootstrap Discord Bot</h1>
+<div align="center">
+  <strong>An opinionated cli-tool to bootstrap your discord bot code!</strong>
+  <p>Forget about boilerplate while making a discord bot. Just use a simple command</p>
+</div>
 
-An opinionated cli-tool to bootstrap your discord bot code!
+## Demo
 
-#### FEATURES
+<div align="center">
+    <img src="./screenshots/demo.gif" alt="demo" width="600"/>
+</div>
+
+## FEATURES
 
 - Support for code with/without cogs.
 - .env file support for keys and .gitignore to hide it.
-- Bot code pre-built with a ping function to get you started!
+- Bot code pre-built with a utility ping function to get you started!
 
 ## Usage
 
@@ -20,15 +28,27 @@ pip install bootstrap-discord-bot
 
 - Run `bootstrap-discord-bot -h` to get help
 
-![img](https://i.ibb.co/vmgnDKD/Screenshot-from-2020-09-19-16-48-04.png)
+<div align="center">
+    <img src="./screenshots/help.png" alt="help" width="800"/>
+</div>
+<br/>
+<br/>
+<br/>
 
 - Run `bootstrap-discord-bot --cogs` to initialise a discord bot with cogs.
 
-![img](https://i.ibb.co/JKJFT9h/unknown.png)
+<div align="center">
+    <img src="./screenshots/cogs.png" alt="cogs" width="800"/>
+</div>
+<br/>
+<br/>
+<br/>
 
 - Run `boostrap-discord-bot --nocogs` to initialise a discord bot without cogs.
 
-![img](https://i.ibb.co/yfd7GKb/Screenshot-from-2020-09-19-16-54-13.png)
+<div align="center">
+    <img src="./screenshots/nocogs.png" alt="demo" width="800"/>
+</div>
 
 ## Built using
 
