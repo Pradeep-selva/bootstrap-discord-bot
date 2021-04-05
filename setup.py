@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup( 
         name='bootstrap-discord-bot',
-        version='1.1.1', 
+        version='1.2.0', 
         author='pradeep-selva', 
         author_email='pradeep.selva8833@gmail.com', 
         url='https://github.com/Pradeep-selva/bootstrap-discord-bot', 
@@ -31,7 +31,7 @@ setup(
             "License :: OSI Approved :: MIT License", 
             "Operating System :: OS Independent", 
         ), 
-        keywords='discord.py cli-tool bootstrapper boilerplate genrator discord bot', 
+        keywords='discord.py cli-tool bootstrapper boilerplate code generator discord bot', 
         install_requires=requirements, 
         zip_safe=False
 ) 
