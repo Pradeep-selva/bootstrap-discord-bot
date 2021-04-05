@@ -56,6 +56,9 @@ pip install bootstrap-discord-bot
 <div align="center">
     <img src="https://i.ibb.co/hCjP76r/nocogs.png" alt="demo" width="800"/>
 </div>
+<br/>
+<br/>
+<br/>
 
 - Run `bootstrap-discord-bot --makecog cog_name file_name` to initialize a file in the cogs folder with required cog boilerplate.
 
